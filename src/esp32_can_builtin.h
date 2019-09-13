@@ -33,6 +33,8 @@
 
 #include "Arduino.h"
 #include "can_common/src/can_common.h"
+
+// These dependencies seem to be for the 
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "freertos/queue.h"
@@ -41,6 +43,7 @@
 #include "esp_system.h"
 #include "esp_adc_cal.h"
 #include "esp32_can_builtin_lowlevel.h"
+
 
 //#define DEBUG_SETUP
 #define NUM_FILTERS 32
